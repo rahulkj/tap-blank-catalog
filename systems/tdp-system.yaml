@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: tdp
+  description: Tanzu Application Platform Developer Portal System
+  annotations:
+    "backstage.io/techdocs-ref": dir:.
+spec:
+  owner: default-team
+  domain: tdp-domain

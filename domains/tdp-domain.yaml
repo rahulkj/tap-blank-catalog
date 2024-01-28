@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: tap-gui-domain
-  description: Everything related to the Tanzu Application Platform GUI
+  name: tdp-domain
+  description: Everything related to the Tanzu Application Platform Developer Portal
   links:
     - url: http://example.com/domain/cloud-apps/
       title: Domain Readme
@@ -10,6 +10,6 @@ metadata:
       title: Cloud Apps Dashboard
       icon: dashboard
   annotations:
-    'backstage.io/techdocs-ref': dir:.
+    "backstage.io/techdocs-ref": dir:.
 spec:
   owner: default-team
